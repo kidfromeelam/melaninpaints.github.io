@@ -3,10 +3,10 @@ background-color: #000000;
 color:#F5ECCE;
 font: normal 18px "Bookman Old Style", serif;
 line-height:1.6em;
-margin:0;\width:100%;
+margin:0;
+width:100%;
 height:100%;
 }
-
 
 
 .fullpage{
@@ -22,16 +22,26 @@ background-size: contain;
 
 
 #main-header{
+position:fixed;
+top: 0px;
+left: 50px;
 background-color:black;
 color:#F5DA81;
 line-height:2em;
+text-align: center;
+font: normal 10px cursive, sans-serif;
+height: 10%;
 }
 
 #navbar{
+position:fixed;
+top: 0px;
+width: 100%;
 background-color:black;
 color:#FFFFFF;
 text-align:center;
-font: normal 19px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font: normal 21px "Comic Sans MS", cursive, sans-serif;
+height: 10.5%;
 }
 
 #navbar li{
@@ -50,7 +60,6 @@ width:80%;
 margin:auto;
 text-align:center;
 }
-
 
 .box-1 h3{
 color: #6E6E6E;
@@ -98,7 +107,8 @@ color:#F5ECCE;
 }
 
 a:hover{
-color: red;
+color: #800000;
+transition: 0.5s;
 }
 
 .button{
@@ -109,6 +119,7 @@ border:none;
 }
 
 .button:hover{
+transition: 0.5s;
 background:red;
 color:#fff;
 }
@@ -118,23 +129,56 @@ color:#fff;
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+
 .grid-item {
-  border: 1px;
   padding: 20px;
   font-size: 16px;
-  text-align: center;
 }
 
 
-.footer{
-text-align:center;
+#cf {
+  position:relative;
+  font-size: 16px;
+
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  transition: 1s ease;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+#fade
+  position:relative;
+  margin:0 auto;
+}
+
+#fade img{
+  transition: 0.75s ease;
+  position:absolute;
+  left:0;
+}
+
+#fade img.top:hover{ 
+transition: 1s;
+opacity: 0.4;
+}
+
+#fade2 img.top:hover{ 
+transition: 1s ease;
+width: 55%;
+opacity: 0.5;
 }
 
 .commissions{
 width:60%;
 margin:auto;
 text-align:center;
-font: normal 21px ""Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font: normal 21px "Comic Sans MS", cursive, sans-serif;
 }
 
 .intro{
@@ -156,47 +200,22 @@ text-align:center;
 
 
 
-  
-.box-1{
-           padding:50px;
 
 
+
+.footer{
+position: relative;
+left: 40px;
+bottom: 40px;
 }
 
-.main-header h1{
-          font-family:Courier, monospace;
-          font-weight:800;
-          font-decoration;
-.paintings{
-           width:50%;
-           margin:auto;
+#logo{
+text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
 
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
   font-size: 30px;
-  width: 50px;
-  text-align: center;
   text-decoration: none;
 }
 
