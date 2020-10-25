@@ -1,0 +1,105 @@
+body{
+background-color: #000000;
+color:#F5ECCE;
+font: normal 18px "Bookman Old Style", serif;
+background-image:url('../Artwork/kaneki.jpg');
+background-position:center;
+background-repeat: no-repeat;
+  background-blend-mode: lightened;
+width:100%;
+height:100%;
+margin:auto;
+background-size: cover;
+}
+
+
+
+#navbar{
+position: fixed;
+top: 0px;
+width: 100%;
+text-align: center;
+font: normal 19px "Comic Sans MS", cursive, sans-serif;
+}
+
+
+#navbar li{
+display:inline;
+}
+
+#navbar a{
+text-decoration: none;
+font-size:18px;
+padding-right:15px;
+}
+
+
+.background-image{
+background-size: cover;
+}
+
+
+.container{
+width:80%;
+margin:auto;
+text-align:center;
+}
+
+a{
+text-decoration: none;
+color:#800000;
+}
+
+a:hover{
+color: #FFDEAD;
+transition: 0.5s;
+}
+
+.button{
+background-color:none;
+color:#FFDEAD;
+padding:10px 15px;
+border:solid 1px;
+}
+
+.button:hover{
+transition: 0.5s;
+background:#800000;
+color:#fff;
+}
+
+
+
+
+.footer{
+color:#F5ECCE;
+text-align: center;
+}
+
+.footer a{
+color:#F5ECCE;
+text-align: center;
+}
+.footer a:hover{
+color:#800000;
+text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+}
+
+/* Twitter */
+.fa-twitter {
+}
+
