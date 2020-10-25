@@ -19,8 +19,6 @@ margin:auto;
 background-size: contain;
 }
 
-
-
 #main-header{
 position:fixed;
 top: 0px;
@@ -30,7 +28,7 @@ color:#F5DA81;
 line-height:2em;
 text-align: center;
 font: normal 10px cursive, sans-serif;
-height: 10%;
+height: 8%;
 }
 
 #navbar{
