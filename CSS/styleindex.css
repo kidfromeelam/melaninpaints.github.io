@@ -1,13 +1,18 @@
-body.h1 {font-family: "Raleway", sans-serif}
-
-body.bgimg {
-  background-image: url('Artwork/kaneki.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-  
 
 
+  body{
+background-color: #000000;
+color:#F5ECCE;
+font: normal 18px "Bookman Old Style", serif;
+background-image:url('../Artwork/kaneki.jpg');
+background-position:center;
+background-repeat: no-repeat;
+  background-blend-mode: lightened;
+width:100%;
+height:100%;
+margin:auto;
+background-size: cover;
+}
 
 
 #navbar{
