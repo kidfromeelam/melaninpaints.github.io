@@ -1,36 +1,48 @@
 <html>
-<title>W3.CSS Template</title>
+<title>melaninpaints</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
              <link rel="stylesheet" type="text/css" href="CSS/styleindex.css" />
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
+.container {
+  position: relative;
+}
 
-body, html {height: 100%}
-.bgimg {
-  background-image: url('Artwork/kaneki.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
 }
 </style>
+  
+  
 <body>
       
-
-      
-      
-
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-
-  <div class="w3-display-middle">
-        <small>EXPLORE THE WORKS OF </small>
     <h1 class="w3-jumbo w3-animate-top"> @MELANINPAINTS</h1>
-<a class="button" href="portfolio.html">Enter</a>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">Following her roots as an Eelam Tamil. Art with a cause </p>
+    <a class="button" href="portfolio.html">Enter</a>
+<p>Explore her works</p>
   </div>
+
+  
+<div class="container">
+  <img src="Artwork/kaneki.jpg" alt="Kaneki" width="1000" height="300">
+  <div class="center">Centered</div>
+</div>      
+      
+
+
+
   <div class="w3-display-bottomleft w3-padding-large">
         
 <div id="logo">
