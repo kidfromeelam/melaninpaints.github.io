@@ -1,0 +1,189 @@
+body{
+background-color:#FDF5E6;
+color:#000000;
+font: normal 18px "Bookman Old Style", serif;
+margin:0;
+}
+
+
+
+.navbar{
+position:fixed;
+top: 2%;
+width: 100%;
+color:#FFFFFF;
+text-align:center;
+font: normal 25px "Inconsolata", sans-serif;
+  overflow: hidden;
+
+}
+
+
+.navbar li{
+  padding: 17px;
+  display: inline;
+}
+
+.nav bar a{
+  text-align: center;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+
+
+a{
+text-decoration: none;
+color:#ffffff;
+}
+
+a:hover{
+color: #800000;
+transition: 0.5s;
+}
+
+
+
+.header-title{
+font-size:90px;
+text-align: center;
+padding: 20%;
+color: #ffffff;
+}
+
+
+
+.smallcontainer{
+  padding: 10px 50px;
+  margin-top: 20px;
+  margin-left: 27.5%;
+  width:45%;
+}
+
+.widecontainer{
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 13%;
+  width:70%;
+}
+
+.charity{
+  padding: 5px 20px;
+  margin-left: 19%;
+  width:70%;
+}
+
+.portfolio{
+  width: 50%;
+  margin-left:12.5%;
+}
+
+.footer{
+  background-color: #FFFAF0;
+  text-align: center;
+  padding: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer a{
+color: #000000;
+}
+
+.footer a:hover{
+color: #ffffff;
+}
+
+
+
+h3{
+background-color: #000000;
+color: #ffffff;
+width: 300px;
+text-align: center;
+margin-left: 30%;
+}
+
+h4{
+text-align: center;
+color: #000;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto;
+  margin-left: 5%;
+  padding: 0px 0px 50px 0px;
+
+}
+
+.grid-item {
+  text-align: center;
+}
+
+
+p{
+padding: 10px;
+}
+
+p1{
+font: normal 20px "Inconsolata", sans-serif;
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery img:hover{
+  width: 100%;
+  height: auto;
+  opacity:0.5;
+  transition: 0.3s;
+}
+
+div.desc {
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.responsive {
+  padding: 0px 20px;
+  float: left;
+  width: 30%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
