@@ -106,6 +106,7 @@ background-color: #000000;
 color: #ffffff;
 width: 300px;
 text-align: center;
+margin-left: 30%;
 }
 
 h4{
@@ -228,8 +229,6 @@ color: #ffffff;
   display: table;
   clear: both;
 }
-
-
 
 
 
